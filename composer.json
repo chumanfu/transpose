@@ -1,0 +1,21 @@
+{
+    "name": "chumanfu/transpose",
+    "description": "Read music and transpose it based on it's current key.",
+    "authors": [
+        {
+            "name": "Chris Mitchell",
+            "email": "chu_man_fu@hotmail.com"
+        }
+    ],
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "ChuManFu\\": "src/ChuManFu",
+            "ChuManFu\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "4.8.22"
+    }
+}
