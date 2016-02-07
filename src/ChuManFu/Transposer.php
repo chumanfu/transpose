@@ -6,7 +6,6 @@ use ChuManFu\TransposerException;
 
 class Transposer
 {
-
     private $scale = array('C',
         array('C#', 'Db'),
         'D',
