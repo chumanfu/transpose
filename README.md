@@ -45,6 +45,7 @@ Once the song is loaded you can transpose it. Currently the class will cannot de
 $transposedSong = $transposer->transpose('C', 'D');
 ``
 
+Have a look through the PHP-Unit tests for some examples of this.
 
 
 
