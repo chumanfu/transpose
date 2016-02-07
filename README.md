@@ -1,8 +1,8 @@
 # Transpose
-This package will read music for a stringed instrument, from a string and transpose it based on it's current key.
+This package will read music for a stringed instrument from a string and transpose it based on it's current key.
 
 ##Song format
-The idea behind this class comes from transposing Ukulele tabs. My wife does this on a regular basis and asked me to make her life easier. The format of the music is mainly song lyrics with the chords above the words which they are supposed to be played on:
+The idea behind this class comes from transposing Ukulele tabs. My wife does this on a regular basis and asked me to make her life easier by automating the process. To do this I have grand ideas to build her web app but first I need to nail the transposing part. The format of the music is mainly song lyrics with the chords above the words which they are supposed to be played on:
 
 ```
 G                              D7            G
