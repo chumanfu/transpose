@@ -24,7 +24,6 @@ class TransposerTest extends PHPUnit_Framework_TestCase
      */
     public function testSimpleTranspose($newKey, $notes)
     {
-//        $songText = "A B C D E F G";
         $songText = "C D E F G A B";
         $inKey = "C";
         
