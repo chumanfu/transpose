@@ -4,7 +4,7 @@ This package will read music for a stringed instrument, from a string and transp
 ##Song format
 The idea behind this class comes from transposing Uke tabs. My wife does this on a regular basis and asked me to make her life easier. The format of the music is mainly song lyrics with the chords above the words which they are supposed to be played on:
 
-> G                              D7            G<br>
+> G&nbsp&nbsp&nbsp&nbsp&nbspD7            G<br>
 > London Bridge is falling down, falling down, falling down
 
 
