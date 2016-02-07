@@ -21,8 +21,24 @@ You will notice that the hash character is used for a sharp note and the lowerca
 
 
 ##Usage
-Create a new Transposer object. You can either provide a song or assign it later.<br>
-```$transposer = new ChuManFu\Transposer();```
+Create a new Transposer object. You can either provide a song or assign it later.
+
+```
+$transposer = new ChuManFu\Transposer();
+```
+or
+```
+$song = "A B C D E F G";
+$transposer = new ChuManFu\Transposer($song);
+```
+Now that you have a transposer object you can load the song. This will parse the song and find all the chords.
+```
+$transposer->loadSong();
+```
+or
+```
+$transposer->loadSong($song);
+```
 
 
 
