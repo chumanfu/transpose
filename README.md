@@ -12,7 +12,7 @@ The idea behind this class comes from transposing Uke tabs. My wife does this on
 
 ##Usage
 Create a new Transposer object. You can either provide a song or assign it later.
-> $transposer = new ChuManFu\Transposer();
+`$transposer = new ChuManFu\Transposer();`
 
 
 
