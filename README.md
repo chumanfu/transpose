@@ -8,7 +8,16 @@ The idea behind this class comes from transposing Uke tabs. My wife does this on
 G                              D7            G
 London Bridge is falling down, falling down, falling down
 ```
-
+Supplying the lyics is not needed but the spaces between the chords is.
+Valid:
+```
+A B C D# Db
+```
+Invalid:
+```
+AB CD A
+```
+You will notice that the hash character is used for a sharp note and the lowercase B character for the a flat note. Using any symbols or webdings etc.. will not work.
 
 
 ##Usage
