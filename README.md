@@ -40,6 +40,7 @@ or
 $transposer->loadSong($song);
 ```
 Once the song is loaded you can transpose it. Currently the class will cannot determine the current key it is in so it needs to be provided in the first argument. The second argument is the key you wish the song to be transposed to:
+
 ``
 $transposedSong = $transposer->transpose('C', 'D');
 ``
