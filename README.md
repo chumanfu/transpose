@@ -1,4 +1,7 @@
 # Transpose
+
+<img src="https://travis-ci.org/chumanfu/transpose.svg?branch=master" />
+
 This package will read music for a stringed instrument from a string and transpose it based on it's current key.
 
 ##Song format
