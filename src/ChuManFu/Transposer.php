@@ -90,7 +90,8 @@ class Transposer
             if (strlen($chord) > 1 && ($chord{1} == "b" || $chord{1} == "#"))
             {
                 array_push($this->formattedChords, substr($chord, 0, 2));
-            } else
+            } 
+            else
             {
                 array_push($this->formattedChords, substr($chord, 0, 1));
             }
@@ -135,7 +136,8 @@ class Transposer
                     $notePos = $noteCount;
                     break;
                 }
-            } else
+            } 
+            else
             {
                 if ($fromNote == $note)
                 {
@@ -154,11 +156,13 @@ class Transposer
                 if ($fromScale[$notePos][0] == $note)
                 {
                     array_push($this->replacementChords, $toScale[$notePos][0]);
-                } else
+                } 
+                else
                 {
                     array_push($this->replacementChords, $toScale[$notePos][1]);
                 }
-            } else
+            } 
+            else
             {
                 array_push($this->replacementChords, $toScale[$notePos]);
             }
