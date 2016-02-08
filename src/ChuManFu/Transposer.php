@@ -54,7 +54,6 @@ class Transposer
                     }
                 }
 
-
                 if ($canCount)
                 {
                     if (in_array($note, $notesInScale) == false)
@@ -163,12 +162,12 @@ class Transposer
             {
                 array_push($this->replacementChords, $toScale[$notePos]);
             }
-        } else
+        } 
+        else
         {
             throw new TransposerException("Note Not Found: " . $note);
         }
     }
-
 }
 
 ?>
