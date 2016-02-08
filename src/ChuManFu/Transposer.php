@@ -145,7 +145,7 @@ class Transposer
                     break;
                 }
             }
-
+rubbish
             $noteCount++;
         }
 
